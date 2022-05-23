@@ -1,6 +1,15 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import { ImHtmlFive2 } from "react-icons/im";
+import { SiCss3 } from 'react-icons/si';
+import { IoLogoJavascript } from 'react-icons/io';
+import { SiReact } from 'react-icons/si';
+import { BsBootstrapFill } from 'react-icons/bs';
+import { SiNodedotjs } from 'react-icons/si';
+import { SiPhp } from 'react-icons/si';
+import { SiMysql } from 'react-icons/si';
+import { AiOutlineConsoleSql } from 'react-icons/ai';
+import { SiPython } from 'react-icons/si';
 
 const Experience = () => {
   return (
@@ -13,7 +22,7 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <ImHtmlFive2 className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
@@ -21,7 +30,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiCss3 className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
                 <small className="text-light">Experienced</small>
@@ -29,7 +38,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <IoLogoJavascript className="experience__details-icon" />
               <div>
                 <h4>Javascript</h4>
                 <small className="text-light">Experienced</small>
@@ -37,7 +46,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiReact className="experience__details-icon" />
               <div>
                 <h4>React</h4>
                 <small className="text-light">Experienced</small>
@@ -45,7 +54,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <BsBootstrapFill className="experience__details-icon" />
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Intermediate</small>
@@ -60,7 +69,7 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiNodedotjs className="experience__details-icon" />
               <div>
                 <h4>Node JS</h4>
                 <small className="text-light">Experienced</small>
@@ -68,7 +77,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiPhp className="experience__details-icon" />
               <div>
                 <h4>PHP</h4>
                 <small className="text-light">Intermediate</small>
@@ -76,7 +85,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiMysql className="experience__details-icon" />
               <div>
                 <h4>MySQL</h4>
                 <small className="text-light">Experienced</small>
@@ -84,7 +93,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <AiOutlineConsoleSql className="experience__details-icon" />
               <div>
                 <h4>PL-SQL</h4>
                 <small className="text-light">Intermediate</small>
@@ -92,7 +101,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiPython className="experience__details-icon" />
               <div>
                 <h4>Python</h4>
                 <small className="text-light">Intermediate</small>

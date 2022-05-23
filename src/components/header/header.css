@@ -38,12 +38,9 @@ header{
 
 /* =============== ME ================= */
 
-.me{
-    align-items: center;
-}
-.me img{
+.me {
     /*background: linear-gradient(var(--color-primary), transparent);*/
-    background: transparent;
+    /*background: transparent;*/
     width: 22rem;
     height: 38rem;
     position: absolute;
@@ -51,7 +48,9 @@ header{
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    transition: var(--transition);
+    box-shadow: 3px 3px 3px 3px var(--color-bg);
+    /*padding: 5rem 1.5rem 1.5rem 1.5rem;*/
 }
 
 /* =============== SCROLL DOWN ================= */
