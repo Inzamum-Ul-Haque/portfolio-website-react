@@ -1,9 +1,10 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me-about-2.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { GiArtificialHive } from 'react-icons/gi';
 
 const About = () => {
   return (
@@ -28,10 +29,10 @@ const About = () => {
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
+              <GiArtificialHive className="about__icon" />
 
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>ML Projects</h5>
+              <small>3+ Completed</small>
             </article>
 
             <article className="about__card">
@@ -43,10 +44,9 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-            modi delectus vitae architecto minima ducimus similique deleniti
-            deserunt alias! Beatae excepturi magni officia ullam voluptates
-            alias totam quas natus autem.
+            Keen to pursue a career in professional services with a focus on
+            Software Development, Data Analysis and Security sectors. Have
+            specialisation in frontend and backend Web Development.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
