@@ -1,7 +1,7 @@
 .services__container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
 }
 
 .service{
@@ -36,18 +36,32 @@
 }
 
 .service__list li{
-    display: flex;
-    gap: 1rem;
+    display: block;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
     margin-bottom: 0.8rem;
 }
 
-.service__list-icon{
+/*.service__list-icon{
     color: var(--color-primary);
     margin-top: 2px;
+}*/
+
+.service__list li a{
+    color: var(--color-white);
+    transition: var(--transition);
+}
+
+.service__list li a:hover{
+    color: var(--color-primary);
+}
+
+.service__list h6{
+    font-size: 0.9rem;
 }
 
 .service__list p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 /* =========== Media Queries (Medium Devices) ============ */
