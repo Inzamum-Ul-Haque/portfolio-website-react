@@ -22,8 +22,10 @@
     overflow: hidden;
 }
 
-.portfolio__item h3{
-    margin: 1.2rem 0 2rem;
+.portfolio__item h5{
+    margin-bottom: 1.7rem;
+    color: #a09d9c;
+    font-weight: 300;
 }
 
 .portfolio__item-cta{
