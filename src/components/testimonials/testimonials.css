@@ -4,12 +4,19 @@
 }
 
 .client__avatar{
-    width: 4rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+    width: 35rem;
+    height: max-content;
+    border-radius: 2%;
+    margin-bottom: 1.5rem;
+    border: 0.3rem solid var(--color-primary-variant);
+}
+
+.client__avatar img{
+    border-radius: 2%;
+}
+
+.client__name{
+    font-size: 1.5rem;
 }
 
 .testimonial{
