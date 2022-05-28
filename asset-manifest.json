@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio-website-react/static/css/main.f431cd6e.css",
+    "main.js": "/portfolio-website-react/static/js/main.43c1aba0.js",
+    "static/media/me.jpg": "/portfolio-website-react/static/media/me.46831ba895ca3282f78e.jpg",
+    "static/media/coderstrust.jpg": "/portfolio-website-react/static/media/coderstrust.2f54e2e8c085e3066fc7.jpg",
+    "static/media/html.jpg": "/portfolio-website-react/static/media/html.386774cb453ba11a698d.jpg",
+    "static/media/css.jpg": "/portfolio-website-react/static/media/css.d3fa0c194fc7b34ed954.jpg",
+    "static/media/excel.jpg": "/portfolio-website-react/static/media/excel.63da1365dde4d75f2b09.jpg",
+    "static/media/google_it_support.jpg": "/portfolio-website-react/static/media/google_it_support.d00e1ac504cb2743b156.jpg",
+    "static/media/resume.jpg": "/portfolio-website-react/static/media/resume.ab18869672eec1873397.jpg",
+    "static/media/Inzamum-Ul-Haque.pdf": "/portfolio-website-react/static/media/Inzamum-Ul-Haque.86d4ff7dbf2ff9bb77ad.pdf",
+    "static/media/me-about-2.jpg": "/portfolio-website-react/static/media/me-about-2.56bd2f019eab19c8385b.jpg",
+    "static/media/portfolio2.jpg": "/portfolio-website-react/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio1.jpg": "/portfolio-website-react/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/portfolio-website-react/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "index.html": "/portfolio-website-react/index.html",
+    "main.f431cd6e.css.map": "/portfolio-website-react/static/css/main.f431cd6e.css.map",
+    "main.43c1aba0.js.map": "/portfolio-website-react/static/js/main.43c1aba0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f431cd6e.css",
+    "static/js/main.43c1aba0.js"
+  ]
+}
